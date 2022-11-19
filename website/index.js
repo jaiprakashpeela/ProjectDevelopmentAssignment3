@@ -7,8 +7,8 @@ const {check, validationResult} = require('express-validator');
 const { Console } = require("console");
 const { match } = require('assert');
 
-// database conection with database name assignment
-mongoose.connect("mongodb://localhost:27017/assignment", {
+// database conection with database name assignment4
+mongoose.connect("mongodb://localhost:27017/assignment4", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
